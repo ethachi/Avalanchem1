@@ -6,7 +6,7 @@ This is simple code used to explain the require,assert and revert statements.
 
 ## Description
 
-The Solidity smart contract titled func features three distinct functions: Require(), Revert(), and Assert(). Each function employs a specific error-handling mechanism. The Require() function utilizes the require() statement to validate that the value of z exceeds zero; failure to meet this condition results in an error. In contrast, the Revert() function checks whether the sum of x and y surpasses 10, throwing an error if this condition is not met. Finally, the Assert() function relies on the assert() statement to confirm if n is greater than zero before executing a division operation by c, terminating with an error if this requirement is not fulfilled.
+This Solidity contract demonstrates error handling techniques using require, revert, and assert statements. Functions such as Duration, authorizeCaller, and checkMinimumBalance illustrate these mechanisms to ensure transaction validity, access control, and critical condition checks. Deploy the contract, interact with its functions, and observe error handling in action.
 
 
 ## Requirements
